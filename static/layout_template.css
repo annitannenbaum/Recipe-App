@@ -10,7 +10,8 @@ body {
 
 .page-header {
     text-align: center;
-    background-color: #F19F4D;
+    background-color: #6B7A8F;
+    color: white;
     
 }
 
@@ -18,6 +19,16 @@ body {
     margin-bottom: 50px;
     padding: 50px;
 }
+
+.container-blog {
+    margin: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: left;
+    background-color: #fac16b;
+    padding: 40px;
+}
+
 .jumbotron {
     margin-top: 50px;
     text-align: right;
@@ -43,14 +54,15 @@ body {
 .navbar {
     background-color: #6B7A8F;
     color: #ffffff;
-    text-align: center;
-    position: sticky;
+    text-align: left;
+  
 }
 
 .navbar .navbar-brand {
     background-color: #F19F4D;
     color: white;
     text-align: center;
+    padding: 6px;
 }
 
 .navbar .nav-item .nav-link{
