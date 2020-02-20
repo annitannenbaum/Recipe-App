@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background-color: #DCC7AA;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    box-sizing: border-box;}
+
+
+.page-header {
+    text-align: center;
+    background-color: #F19F4D;
+    
+}
+
+.container-home {
+    margin-bottom: 50px;
+    padding: 50px;
+}
+.jumbotron {
+    margin-top: 50px;
+    text-align: right;
+    background-color: #fac16b;
+    background-image: url(https://images.pexels.com/photos/319382/pexels-photo-319382.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    background-size: cover;
+}
+
+.container-fluid {
+    background-color:#F7C331;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.btn {
+    background-color: #F19F4D;
+    color:  #ffffff;
+}
+
+
+.navbar {
+    background-color: #6B7A8F;
+    color: #ffffff;
+    text-align: center;
+    position: sticky;
+}
+
+.navbar .navbar-brand {
+    background-color: #F19F4D;
+    color: white;
+    text-align: center;
+}
+
+.navbar .nav-item .nav-link{
+    color: #ffffff;
+}
+
+.page-footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #6b7a8f;
+    color: #ffffff;
+    text-align: center;
