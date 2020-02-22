@@ -12,6 +12,7 @@ body {
     text-align: center;
     background-color: #6B7A8F;
     color: white;
+    padding:4px;
     
 }
 
@@ -22,8 +23,8 @@ body {
 
 .container-blog {
     margin: 20px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 10%;
+    width: 80%;
     text-align: left;
     background-color: #fac16b;
     padding: 40px;
@@ -78,6 +79,22 @@ body {
 
 .navbar .nav-item .nav-link:hover {
     color: #696969;
+}
+
+.forgot-creds {
+    color: black;
+    text-align: left;
+}
+
+.forgot-creds:hover {
+    color: #696969;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.login-form {
+    width: 70%;
+    margin: auto;
 }
 
 .page-footer {
