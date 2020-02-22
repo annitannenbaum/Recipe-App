@@ -33,7 +33,7 @@ body {
     margin-top: 50px;
     text-align: right;
     background-color: #fac16b;
-    background-image: url(https://images.pexels.com/photos/319382/pexels-photo-319382.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    /* background-image: url(https://images.pexels.com/photos/319382/pexels-photo-319382.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500); */
     background-size: cover;
 }
 
@@ -59,14 +59,25 @@ body {
 }
 
 .navbar .navbar-brand {
-    background-color: #F19F4D;
-    color: white;
-    text-align: center;
+    background-color: #fac16b;
+    color: #696969;
+    text-align: right;
     padding: 6px;
+    font-weight: bold;
+}
+
+.navbar .navbar-brand:hover {
+    color: #696969;
 }
 
 .navbar .nav-item .nav-link{
     color: #ffffff;
+    margin: 0;
+    font-weight: bold;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: #696969;
 }
 
 .page-footer {
