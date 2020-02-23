@@ -1,6 +1,13 @@
+/* FARBEN:
+
+HELLGRAU: #efefef
+HELLGRÜN: #6ee295
+DUNKELGRÜN: #2e8f5c
+DUNKELGRAU: #575757 */
+
 body {
     margin: 0;
-    background-color: #DCC7AA;
+    background-color: #efefef;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -8,62 +15,70 @@ body {
     box-sizing: border-box;}
 
 
+/* === GENERAL STYLING === */
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #575757;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #2e8f5c;
+    color:  #efefef;
+}
+
 .page-header {
     text-align: center;
-    background-color: #6B7A8F;
-    color: white;
+    background-color: #575757;
+    color: #efefef;
     padding:4px;
     
 }
 
-.container-home {
-    margin-bottom: 50px;
-    padding: 50px;
-}
+/* === CONTAINERS === */
 
 .container-blog {
-    margin: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     margin-left: 10%;
     width: 80%;
     text-align: left;
-    background-color: #fac16b;
+    background-color: #6ee295;
+    padding: 40px;
+}
+
+.container-link {
+    margin-left: 10%;
+    width: 80%;
+    color: black;
     padding: 40px;
 }
 
 .jumbotron {
     margin-top: 50px;
     text-align: right;
-    background-color: #fac16b;
-    /* background-image: url(https://images.pexels.com/photos/319382/pexels-photo-319382.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500); */
-    background-size: cover;
-}
-
-.container-fluid {
-    background-color:#F7C331;
-    padding: 20px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    color: white;
+    background-color: #6ee295;
 }
 
 
-.btn {
-    background-color: #F19F4D;
-    color:  #ffffff;
-}
-
+/* === NAVBAR STYLING === */
 
 .navbar {
-    background-color: #6B7A8F;
+    background-color: #575757;
     color: #ffffff;
     text-align: left;
   
 }
 
 .navbar .navbar-brand {
-    background-color: #fac16b;
-    color: #696969;
+    color: #efefef;
     text-align: right;
-    padding: 6px;
     font-weight: bold;
 }
 
@@ -81,27 +96,24 @@ body {
     color: #696969;
 }
 
-.forgot-creds {
-    color: black;
-    text-align: left;
-}
 
-.forgot-creds:hover {
-    color: #696969;
-    text-decoration: none;
-    display: inline-block;
-}
+
+/* === FORMS === */
 
 .login-form {
     width: 70%;
     margin: auto;
 }
 
+
+
+/* === FOOTER === */
+
 .page-footer {
     position: static;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #6b7a8f;
+    background-color: #575757;
     color: #ffffff;
     text-align: center;
