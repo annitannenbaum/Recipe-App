@@ -44,19 +44,23 @@ body {
 
 .container-blog {
     margin-top: 50px;
-    margin-bottom: 50px;
     margin-left: 10%;
     width: 80%;
     text-align: left;
     background-color: #6ee295;
-    padding: 40px;
+    padding: 30px;
+}
+
+.container-home {
+    margin: 5%;
+    padding: 10px;
 }
 
 .container-link {
     margin-left: 10%;
     width: 80%;
     color: black;
-    padding: 40px;
+    margin-bottom: 5%;
 }
 
 .jumbotron {
