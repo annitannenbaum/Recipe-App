@@ -44,9 +44,10 @@ body {
 
 .container-blog {
     margin-top: 50px;
-    margin-left: 10%;
-    width: 80%;
+    margin-left: 25%;
+    width: 50%;
     text-align: left;
+    vertical-align: middle;
     background-color: #6ee295;
     padding: 30px;
 }
@@ -57,8 +58,8 @@ body {
 }
 
 .container-link {
-    margin-left: 10%;
-    width: 80%;
+    margin-left: 25%;
+    width: 50%;
     color: black;
     margin-bottom: 5%;
 }
