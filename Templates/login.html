@@ -9,8 +9,8 @@
 <div class="container-blog shadow-lg">
     <div class="login-form">
         <form action="" style="width: 100%; margin: auto">
-            <label for="username">Username</label>
-            <input type="text" name="username" id="username" class="form-control">
+            <label for="email">E-Mail</label>
+            <input type="text" name="email" id="email" class="form-control">
             <br>
             <label for="password">Password</label>
             <input type="text" name="password" id="password" class="form-control">
@@ -27,7 +27,7 @@
 		<a href="#" class="link">Forgot Username or Password?</a>
 	</div>
 	<div class="col-sm-6" style="text-align: right">
-		<a href="http://127.0.0.1:5000/signup" class="link">Or create an account.</a>
+		<a href="{{ url_for('register') }}" class="link">Or create an account.</a>
 	</div>
 </div>
 
