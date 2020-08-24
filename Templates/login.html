@@ -8,27 +8,32 @@
 
 <div class="container-blog shadow-lg">
     <div class="login-form">
-        <form action="" style="width: 100%; margin: auto">
-            <label for="email">E-Mail</label>
-            <input type="text" name="email" id="email" class="form-control">
-            <br>
-            <label for="password">Password</label>
-            <input type="text" name="password" id="password" class="form-control">
+        <form method="POST" action="">
+            {{ form.hidden_tag() }}
+            <fieldset class="form-group">
+                <legend class="border-bottom mb-4">Log In to Post your Recipe today!</legend>
+                <div class="form-group">
+                    {{ form.email.label(class="form-control-label") }}
+                    {{ form.email(class="form-control form-control lg")}}
+                </div>
+                <div class="form-group">
+                    {{ form.password.label(class="form-control-label") }}
+                    {{ form.password(class="form-control form-control lg")}}
+                </div>
+                <div class="form-group">
+                    {{ form.login(class="btn") }}
+                </div>
+            </fieldset>
         </form>
     </div>
-    <br><br><br>
-    <div class="text-center">
-        <a href="#" class="btn btn-secondary" style="width: 60%; margin: auto">Login</a>
-    </div>
-    <br><br>
-</div>
-<div class="row container-link">
-	<div class="col-sm-6" style="text-align: left">
-		<a href="#" class="link">Forgot Username or Password?</a>
-	</div>
-	<div class="col-sm-6" style="text-align: right">
-		<a href="{{ url_for('register') }}" class="link">Or create an account.</a>
-	</div>
+    <div class="row container-link">
+        <div class="col-sm-6" style="text-align: left">
+            <a href="#" class="link">Forgot Username or Password?</a>
+        </div>
+        <div class="col-sm-6" style="text-align: right">
+            <a href="{{ url_for('register') }}" class="link">Or create an account.</a>
+        </div>
+    </div> 
 </div>
 
 {% endblock content %}

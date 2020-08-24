@@ -38,6 +38,9 @@ body {
     background-color: #575757;
     color: #efefef;
     padding:4px;
+    position: sticky;
+    position: -webkit-sticky; /* Safari */
+    top: 0;
     
 }
 
@@ -123,3 +126,4 @@ body {
     background-color: #575757;
     color: #ffffff;
     text-align: center;
+}
