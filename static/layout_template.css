@@ -37,10 +37,10 @@ body {
     text-align: center;
     background-color: #575757;
     color: #efefef;
-    padding:4px;
-    position: sticky;
+    padding: 4px;
+    position: static;
     position: -webkit-sticky; /* Safari */
-    top: 0;
+    top: 56px;
     
 }
 
@@ -82,6 +82,8 @@ body {
     background-color: #575757;
     color: #ffffff;
     text-align: left;
+    overflow: hidden;
+    top: 56px;
   
 }
 
